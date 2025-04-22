@@ -1,7 +1,8 @@
+import meliodas from "../assets/imagens/meliodas.jpg"
 export function Titulo(){
     return(
         <>
-            <h1>Testando o css no react vite</h1>
+            <img src={meliodas} alt="meliodas" />
         </>
     )
 }
